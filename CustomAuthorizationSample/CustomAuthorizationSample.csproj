@@ -167,6 +167,12 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Authorization\AppAuthorizeAttribute.cs" />
+    <Compile Include="Authorization\BaseController.cs" />
+    <Compile Include="Authorization\Enum\ComparisonType.cs" />
+    <Compile Include="Authorization\Enum\PermissionRule.cs" />
+    <Compile Include="Authorization\HtmlExtensions.cs" />
+    <Compile Include="Authorization\WebHelper.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
